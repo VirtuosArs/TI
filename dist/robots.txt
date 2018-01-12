@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /help
+Disallow: /truck-partner
+Disallow: /about-us
+Disallow: /Trip_In_Truck_Partner.pdf
+Disallow: /blog/2017/01/
+Disallow: /blog/tag/
+Disallow: /blog
+Disallow: /index.php/term-and-conditions-of-use.html
+Disallow: /term-and-conditions-for-truck-partner.html
+Disallow: /assets/pdf/Trip_In_perfect_plan.pdf
+Disallow: /term-and-conditions-of-use.html
+sitemap: http://www.tripin.co.in/sitemap.xml

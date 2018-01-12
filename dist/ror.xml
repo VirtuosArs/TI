@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://tripin.co.in/</title>
+  <link>http://tripin.co.in/</link>
+
+<item>
+     <link>http://tripin.co.in/</link>
+     <title>Mobile App Developers, UI UX Designers, Branding - Tripin Studio</title>
+     <description>Tripin is a tech and design agency who leverages data analytics to create UI UX designs to develop android apps, web apps and iOS apps in Mumbai.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

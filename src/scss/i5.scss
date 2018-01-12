@@ -1,0 +1,16 @@
+@media only screen and (max-width: 320px) {
+    .feel,
+    .ui {
+        top: -2rem !important;
+    }
+    .s2card {
+        height: 255px !important;
+    }
+    #section2n {
+        background-position-y: 17rem !important;
+    }
+    .home2 h1, .home3 h1, .home4 h1 {
+        font-family: Khand-Medium;
+        font-size: 1.5rem;
+    }
+}

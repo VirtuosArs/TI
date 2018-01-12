@@ -1,0 +1,190 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .card {
+        max-width: 92% !important;
+    }
+    .s3card {
+        right: 4rem !important;
+    }
+    .formfooter {
+        right: -2rem !important;
+    }
+    .home h1 {
+        font-size: 4rem !important;
+    }
+    .gradienttext1 {
+        font-size: 2rem !important;
+    }
+    #section2n {
+        background-position-y: 41rem !important;
+    }
+    #section3 {
+        background-position-y: 32rem !important;
+    }
+    #section4 {
+        background-size: contain !important;
+        background-position-y: 28rem !important;
+    }
+    .fipad {
+        right: -1rem !important;
+    }
+    .nav-link12 {
+        width: 6rem !important;
+    }
+    .navbar-brand1 {
+        left: 2rem !important;
+        top: 2rem !important;
+    }
+    .nav-link1 {
+        right: 2rem !important;
+        top: 2rem !important;
+        width: 8rem !important;
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #section2n {
+        background-position-y: 21rem !important;
+    }
+    #section3 {
+        background-position-y: 21rem !important;
+    }
+    #section4 {
+        background-size: contain !important;
+        background-position-y: 12rem !important;
+    }
+    .navbar-brand1 {
+        left: 2rem !important;
+        top: 2rem !important;
+    }
+    .nav-link1 {
+        right: 2rem !important;
+        top: 2rem !important;
+        width: 8rem !important;
+    }
+    #tmessage {
+        right: -2rem !important;
+    }
+    .nav-link12t{
+        width: 7rem !important;
+        right: -0.1rem !important;
+        font-size: 20px !important;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    #tmessage {
+        right: -1rem !important;
+        width: 8rem !important;
+    }
+
+    .nav-link12t{
+        width: 7rem !important;
+        right: -0.1rem !important;
+        font-size: 20px !important;
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    #section4 {
+        background-size: contain !important;
+        background-position-y: 28rem !important;
+    }
+    .navbar-brand1 {
+        left: 2rem !important;
+        top: 2rem !important;
+    }
+    .nav-link1 {
+        right: 2rem !important;
+        top: 2rem !important;
+        width: 8rem !important;
+    }
+    .nav-link12t{
+        width: 7rem !important;
+        right: -0.1rem !important;
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #section2n {
+        background-position-y: 21rem !important;
+    }
+    #section3 {
+        background-position-y: 18rem !important;
+    }
+    #section4 {
+        background-size: contain !important;
+        background-position-y: 12rem !important;
+    }
+    .navbar-brand1 {
+        left: 2rem !important;
+        top: 2rem !important;
+    }
+    .nav-link1 {
+        right: 2rem !important;
+        top: 2rem !important;
+        width: 8rem !important;
+    }
+}
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    #section4 {
+        background-size: contain !important;
+        background-position-y: 11rem !important;
+    }
+    .navbar-brand1 {
+        left: 2rem !important;
+        top: 2rem !important;
+    }
+    .nav-link1 {
+        right: 2rem !important;
+        top: 2rem !important;
+        width: 8rem !important;
+    }
+    .nav-link12t{
+        width: 7rem !important;
+        right: -0.1rem !important;
+        font-size: 20px !important;
+    }
+    .card {
+        min-height: 36vh !important; 
+    }
+}
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #section2n {
+        background-position-y: 21rem !important;
+    }
+    #section3 {
+        background-position-y: 18rem !important;
+    }
+    #section4 {
+        background-size: contain !important;
+        background-position-y: 12rem !important;
+    }
+    .navbar-brand1 {
+        left: 2rem !important;
+        top: 2rem !important;
+    }
+    .nav-link1 {
+        right: 2rem !important;
+        top: 2rem !important;
+        width: 8rem !important;
+    }
+}
