@@ -129,3 +129,19 @@
 //     }
 //   }
   
+
+
+#service1 {
+    .servicescreen1{
+        background: $white;
+        box-shadow: 10px 10px 45px #999;
+        margin-top: -5rem;
+        border-radius: 0;
+        max-width: 90%;
+        margin-left: 5%;
+    }
+}
+
+#service2 {
+    background: $gray-200;
+}

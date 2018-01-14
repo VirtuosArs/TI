@@ -1,3 +1,3 @@
-# TripIn Website
+# A simple Website
 
-TripIn website
+Simple website
