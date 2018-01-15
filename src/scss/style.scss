@@ -231,6 +231,12 @@
             margin-top: -17rem;
         }
     }
+
+    @media (max-width:1024px) and (min-width:878px) {
+        .img-shadow {
+            margin-top: -12rem !important;
+        } 
+    }
 }
 
 #service2 {
@@ -349,8 +355,8 @@
         color: #3d4deb !important;
         position: relative;
         top: 21rem;
-        right: -21rem;
-        margin-left: 5rem;
+        left: 26rem;
+        margin-right: 15rem;
     }
     .sidehrtext3 {
         color: #417307 !important;
@@ -437,6 +443,54 @@
         .morehead {
             font-size: 3.5rem;
         }
+    }
+
+    @media (max-width:1024px) and (min-width:878px) {
+        .sidehr, .sidehrtext {
+            margin-left: -5rem;
+            left: 6rem;
+            position: relative;
+            top: 21rem;
+            width: 24%;
+            font-size: 14px;
+        }
+
+        .img-shadow {
+            width: 75%;
+            float: left;
+            margin-top: -1rem;
+            margin-left: 7rem;
+        }
+
+        .img-shadow img {
+            top: 36px;
+            left: 54px;
+        }
+        .top-right {
+            right: -36px;
+        }
+        
+        .nav-linkproject1{
+            width: 9.6rem !important;
+            font-size: 1rem !important;
+        }
+
+        .img-shadowr {
+            margin-top: -1rem;
+            margin-left: -5rem;
+        }
+
+        .top-left {
+            left: 70px;
+        }
+
+        .sidehrr {
+            margin-right: 3rem;
+        }
+        .sidehrtextr {
+            left: 17rem;
+            margin-right: 15rem;
+        }   
     }
 
 

@@ -2325,6 +2325,12 @@ a.bloglink:link {
   }
 }
 
+@media (max-width: 1024px) and (min-width: 878px) {
+  #home .img-shadow {
+    margin-top: -12rem !important;
+  }
+}
+
 #service2 {
   background: #e9ecef;
 }
@@ -2456,8 +2462,8 @@ a.bloglink:link {
   color: #3d4deb !important;
   position: relative;
   top: 21rem;
-  right: -21rem;
-  margin-left: 5rem;
+  left: 26rem;
+  margin-right: 15rem;
 }
 
 #service4 .sidehrtext3 {
@@ -2542,6 +2548,48 @@ a.bloglink:link {
 @media (min-width: 1850px) {
   #service4 .morehead {
     font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 878px) {
+  #service4 .sidehr, #service4 .sidehrtext {
+    margin-left: -5rem;
+    left: 6rem;
+    position: relative;
+    top: 21rem;
+    width: 24%;
+    font-size: 14px;
+  }
+  #service4 .img-shadow {
+    width: 75%;
+    float: left;
+    margin-top: -1rem;
+    margin-left: 7rem;
+  }
+  #service4 .img-shadow img {
+    top: 36px;
+    left: 54px;
+  }
+  #service4 .top-right {
+    right: -36px;
+  }
+  #service4 .nav-linkproject1 {
+    width: 9.6rem !important;
+    font-size: 1rem !important;
+  }
+  #service4 .img-shadowr {
+    margin-top: -1rem;
+    margin-left: -5rem;
+  }
+  #service4 .top-left {
+    left: 70px;
+  }
+  #service4 .sidehrr {
+    margin-right: 3rem;
+  }
+  #service4 .sidehrtextr {
+    left: 17rem;
+    margin-right: 15rem;
   }
 }
 
