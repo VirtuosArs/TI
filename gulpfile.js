@@ -18,21 +18,22 @@ gulp.task('scripts', function () {
     return gulp.src([
         /* Add your JS files here, they will be combined in this order */
         // 'src/js/vendor/jquery.js',
-        // 'src/js/vendor/jquery.min.js',
+        'src/js/vendor/jquery.min.js',
         'src/js/vendor/popper.min.js',
         'src/js/vendor/tether.min.js',
         'src/js/vendor/bootstrap.min.js',
-        'src/js/vendor/scrollreveal.min.js',
+        'src/js/vendor/scrolloverflow.js',
+        // 'src/js/vendor/scrollreveal.min.js',
         'src/js/vendor/jquery.easing.min.js',
         'src/js/vendor/modernizr.custom.js',
         'src/js/vendor/jquery.fullpage.min.js',
-        'src/js/vendor/classie.js',
-        'src/js/vendor/demo.js',
+        // 'src/js/vendor/classie.js',
+        // 'src/js/vendor/demo.js',
     ])
         .pipe(concat('scripts.js'))
         .pipe(gulp.dest('dist/js'))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 });
 
@@ -52,7 +53,7 @@ gulp.task('minify-custom', function () {
         'src/js/custom.js'
     ])
         .pipe(rename({ suffix: '.min' }))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('dist/js'))
         .pipe(gulp.dest('src/js'));
 });

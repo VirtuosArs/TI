@@ -13,6 +13,10 @@ body {
   font-family: 'Khand-Medium' ,'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 @font-face {
   font-family: Khand-Bold;
   src: url(../fonts/Khand-Bold.ttf);
@@ -2210,7 +2214,28 @@ a.bloglink:link {
   }
 }
 
-#service1 .servicescreen1 {
+@font-face {
+  font-family: Khand-Semibold;
+  src: url(../fonts/Khand-Semibold.ttf);
+}
+
+@font-face {
+  font-family: Khand-Regular;
+  src: url(../fonts/Khand-Regular.ttf);
+}
+
+@media (max-width: 414px) {
+  #contactus {
+    display: block !important;
+    font-size: 12px;
+  }
+}
+
+#home {
+  /* Top right text */
+}
+
+#home .servicescreen1 {
   background: #fff;
   -webkit-box-shadow: 10px 10px 45px #999;
   box-shadow: 10px 10px 45px #999;
@@ -2220,6 +2245,308 @@ a.bloglink:link {
   margin-left: 5%;
 }
 
+#home .img-shadow {
+  position: relative;
+  background: #e76366;
+  width: 100%;
+  float: left;
+  margin-top: -20rem;
+}
+
+#home .img-shadow img {
+  position: relative;
+  top: 36px;
+  left: 54px;
+  border-top: 46px solid #fff;
+  -webkit-box-shadow: 10px 10px 45px #999;
+  box-shadow: 10px 10px 45px #999;
+}
+
+#home .dot {
+  margin-left: -5rem;
+  max-width: 100%;
+}
+
+#home .sidehr {
+  margin-left: -5rem;
+  background: #000;
+}
+
+#home .sidehrtext {
+  margin-left: -5rem;
+  color: #e76366 !important;
+}
+
+#home .getlink {
+  color: #e76366;
+  border-bottom: 2px solid;
+  border-bottom-width: 50%;
+  border-width: 50%;
+  text-decoration: none;
+  width: 50%;
+}
+
+#home .head1 {
+  font-family: Khand-Semibold;
+  text-transform: uppercase;
+}
+
+#home .containerimg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#home .top-right {
+  position: absolute;
+  top: 45px;
+  right: -18px;
+  color: #000;
+}
+
+@media (min-width: 1850px) {
+  #home .head1 {
+    font-size: 3.5rem;
+  }
+  #home .servicescreen1 {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #home .dot {
+    margin-left: -2rem;
+  }
+  #home .img-shadow {
+    width: 80%;
+    float: left;
+    margin-top: -17rem;
+  }
+}
+
 #service2 {
   background: #e9ecef;
+}
+
+#service2 .head1 {
+  font-family: Khand-Semibold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1850px) {
+  #service2 .head1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #service2 {
+    margin-top: 3rem;
+  }
+}
+
+#service3 .head1 {
+  font-family: Khand-Semibold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1850px) {
+  #service3 .head1 {
+    font-size: 3.5rem;
+  }
+}
+
+#service4 {
+  /* Top right text */
+}
+
+#service4 .head1 {
+  font-family: Khand-Semibold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1850px) {
+  #service4 .head1, #service4 h2 {
+    font-size: 3.5rem;
+  }
+}
+
+#service4 .containerimg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#service4 h2 {
+  font-family: Khand-Semibold;
+}
+
+#service4 .img-shadow {
+  position: relative;
+  background: #e76366;
+  width: 85%;
+  float: left;
+  margin-top: -7rem;
+}
+
+#service4 .img-shadow img {
+  position: relative;
+  top: 36px;
+  left: 54px;
+  border-top: 46px solid #fff;
+  -webkit-box-shadow: 10px 10px 45px #999;
+  box-shadow: 10px 10px 45px #999;
+}
+
+#service4 .img-shadowr {
+  float: left;
+  background: #3d4deb;
+}
+
+#service4 .img-shadowr img {
+  left: -54px;
+}
+
+#service4 .img-shadow3 {
+  background: #417307;
+}
+
+#service4 .top-right {
+  position: absolute;
+  top: 45px;
+  right: -18px;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+#service4 .top-left {
+  position: absolute;
+  top: 45px;
+  left: -16px;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+#service4 .sidehr {
+  margin-left: -5rem;
+  background: #000;
+  position: relative;
+  top: 21rem;
+  left: -1rem;
+}
+
+#service4 .sidehrtext {
+  margin-left: -5rem;
+  color: #e76366 !important;
+  position: relative;
+  top: 21rem;
+  left: -1rem;
+}
+
+#service4 .sidehrr {
+  margin-right: -1rem;
+  background: #000;
+  position: relative;
+  top: 21rem;
+  width: 20%;
+}
+
+#service4 .sidehrtextr {
+  color: #3d4deb !important;
+  position: relative;
+  top: 21rem;
+  right: -21rem;
+  margin-left: 5rem;
+}
+
+#service4 .sidehrtext3 {
+  color: #417307 !important;
+}
+
+#service4 .sidehead {
+  padding-top: 6rem;
+}
+
+#service4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#service4 .nav-linkproject1 {
+  position: absolute;
+  z-index: 1;
+  width: 11.6rem;
+  height: 2.7rem;
+  margin-bottom: 5rem;
+  background: #000;
+  color: white !important;
+  color: #ececec !important;
+  font-family: Khand-Bold;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 0px;
+  border: none;
+}
+
+#service4 .nav-linkproject1:before {
+  position: absolute;
+  z-index: -2;
+  margin-bottom: 5rem;
+  top: -11%;
+  left: -3%;
+  width: 100%;
+  height: 100%;
+  background: #e76366;
+  /* background: linear-gradient(to right, #fe5068, #5d33e5, #1cc19c); */
+  content: '';
+}
+
+#service4 .np2:before {
+  background: #3d4deb;
+}
+
+#service4 .np3:before {
+  background: #417307;
+}
+
+#service4 .morebutton {
+  background: -webkit-linear-gradient(left, #fe5068, #ffbf13) !important;
+  font-size: 25px;
+}
+
+#service4 .morebutton:before {
+  background: #000 !important;
+}
+
+#service4 .mtoppad {
+  margin-top: 5rem;
+}
+
+#service4 .moreproject {
+  background: #fe5068;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* background: -o-linear-gradient(to bottom right, #fe5068, #ff6955, #ff704f, #ffbf13); */
+  /* For Fx 3.6 to 15 */
+  /* Standard syntax */
+  background: -webkit-gradient(linear, left bottom, right top, from(#fe5068), color-stop(#ff6955), to(#ff883d));
+  background: linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+}
+
+#service4 .morehead {
+  color: #fff;
+}
+
+@media (min-width: 1850px) {
+  #service4 .morehead {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #sectionf .formfooter {
+    top: 2rem !important;
+  }
 }
