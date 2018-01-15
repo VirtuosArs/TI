@@ -137,12 +137,11 @@
 // .section {
 //     padding: none !important;
 // }
-
 @media (max-width: 414px) {
-        #contactus {
-            display: block !important;
-            font-size: 12px;
-        }
+    #contactus {
+        display: block !important;
+        font-size: 12px;
+    }
 }
 
 #home {
@@ -161,20 +160,20 @@
         float: left;
         margin-top: -20rem;
     }
+    .img-shadowweb {
+        background: $web-text;
+    }
     .img-shadow img {
         position: relative;
         top: 36px;
         left: 54px;
         border-top: 46px solid#fff;
         box-shadow: 10px 10px 45px #999;
-    }
-
-    // .imginside {
+    } // .imginside {
     //     position: relative;
     //     top: 36px;
     //     left: 54px;
     // }
-
     .dot {
         margin-left: -5rem;
         max-width: 100%;
@@ -187,6 +186,9 @@
         margin-left: -5rem;
         color: $design-text !important;
     }
+    .sidehrtextweb {
+        color: $web-text;
+    }
     .getlink {
         color: $design-text;
         border-bottom: 2px solid;
@@ -194,6 +196,9 @@
         border-width: 50%;
         text-decoration: none;
         width: 50%;
+    }
+    .getweblink {
+        color: $web-text;
     }
     .head1 {
         font-family: Khand-Semibold;
@@ -220,7 +225,6 @@
             margin-left: 0;
         }
     }
-
     @media (max-width:768px) {
         .dot {
             margin-left: -2rem;
@@ -231,18 +235,16 @@
             margin-top: -17rem;
         }
     }
-
     @media (max-width:1024px) and (max-height:878px) {
         .img-shadow {
             margin-top: -12rem !important;
-        } 
+        }
     }
-
-    @media (max-width:768px) and (max-height:878px) {
+    @media (max-width:768px) and (max-height:1024px) {
         .img-shadow {
             width: 100% !important;
             margin-top: -12rem !important;
-        } 
+        }
     }
 }
 
@@ -257,9 +259,18 @@
             font-size: 3.5rem;
         }
     }
-    @media (max-width:768px) {
-        margin-top: 3rem;
-    }    
+}
+
+@media (max-width:768px) and (max-height:1024px) {
+    #service2 {
+        margin-top: 3rem !important;
+    }
+}
+
+@media (max-width:1024px) and (max-height:768px) {
+    #service2 {
+        margin-top: 3rem !important;
+    }
 }
 
 #service3 {
@@ -271,7 +282,7 @@
         .head1 {
             font-size: 3.5rem;
         }
-    } 
+    }
 }
 
 #service4 {
@@ -280,7 +291,8 @@
         text-transform: uppercase;
     }
     @media (min-width: 1850px) {
-        .head1, h2 {
+        .head1,
+        h2 {
             font-size: 3.5rem;
         }
     }
@@ -289,10 +301,9 @@
         text-align: center;
         color: white;
     }
-    h2{
+    h2 {
         font-family: Khand-Semibold;
     }
-
     .img-shadow {
         position: relative;
         background: $design-text;
@@ -307,15 +318,13 @@
         border-top: 46px solid#fff;
         box-shadow: 10px 10px 45px #999;
     }
-
-    .img-shadowr{
+    .img-shadowr {
         float: left;
         background: #3d4deb;
     }
-    .img-shadowr img{
+    .img-shadowr img {
         left: -54px;
     }
-
     .img-shadow3 {
         background: #417307;
     }
@@ -327,7 +336,6 @@
         font-size: 1.4rem;
         color: #000;
     }
-
     .top-left {
         position: absolute;
         top: 45px;
@@ -335,7 +343,6 @@
         font-size: 1.4rem;
         color: #000;
     }
-
     .sidehr {
         margin-left: -5rem;
         background: #000;
@@ -350,7 +357,6 @@
         top: 21rem;
         left: -1rem;
     }
-
     .sidehrr {
         margin-right: -1rem;
         background: #000;
@@ -371,19 +377,16 @@
     .sidehead {
         padding-top: 6rem;
     }
-
     a {
         text-decoration: none;
         color: $white;
     }
-
     .nav-linkproject1 {
         position: absolute;
         z-index: 1;
         width: 11.6rem;
         height: 2.7rem;
-        margin-bottom: 5rem;
-        // background: linear-gradient(to right, #fe5068, #5d33e5, #1cc19c);
+        margin-bottom: 5rem; // background: linear-gradient(to right, #fe5068, #5d33e5, #1cc19c);
         background: #000;
         color: white !important;
         color: #ececec !important;
@@ -393,7 +396,6 @@
         padding: 0px;
         border: none;
     }
-    
     .nav-linkproject1:before {
         position: absolute;
         z-index: -2;
@@ -406,54 +408,62 @@
         /* background: linear-gradient(to right, #fe5068, #5d33e5, #1cc19c); */
         content: '';
     }
-
     .np2:before {
         background: #3d4deb;
     }
-
     .np3:before {
         background: #417307;
     }
-
     .morebutton {
         background: -webkit-linear-gradient(left, #fe5068, #ffbf13) !important;
         font-size: 25px;
     }
-
     .morebutton:before {
         background: #000 !important;
+    }
+    .morewebbutton{
+        background: -webkit-linear-gradient(left, #5d33e5, #58a1ff) !important;
     }
 
     .mtoppad {
         margin-top: 5rem;
     }
-
     .moreproject {
-            background: #fe5068;
-            /* For browsers that do not support gradients */
-            /* For Safari 5.1 to 6.0 */
-            background: -webkit-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
-            /* For Opera 11.1 to 12.0 */
-            /* background: -o-linear-gradient(to bottom right, #fe5068, #ff6955, #ff704f, #ffbf13); */
-            background: -o-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
-            /* For Fx 3.6 to 15 */
-            background: -moz-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
-            /* Standard syntax */
-            background: linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+        background: #fe5068;
+        /* For browsers that do not support gradients */
+        /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+        /* For Opera 11.1 to 12.0 */
+        /* background: -o-linear-gradient(to bottom right, #fe5068, #ff6955, #ff704f, #ffbf13); */
+        background: -o-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+        /* For Fx 3.6 to 15 */
+        background: -moz-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+        /* Standard syntax */
+        background: linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
     }
-
+    .morewebproject {
+        background: #5d33e5;
+        /* For browsers that do not support gradients */
+        /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+        /* For Opera 11.1 to 12.0 */
+        background: -o-linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+        /* For Fx 3.6 to 15 */
+        background: -moz-linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+        /* Standard syntax */
+        background: linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+    }
     .morehead {
         color: $white;
     }
-
     @media (min-width: 1850px) {
         .morehead {
             font-size: 3.5rem;
         }
     }
-
     @media (max-width:1024px) and (max-height:878px) {
-        .sidehr, .sidehrtext {
+        .sidehr,
+        .sidehrtext {
             margin-left: -5rem;
             left: 6rem;
             position: relative;
@@ -461,14 +471,12 @@
             width: 24%;
             font-size: 14px;
         }
-
         .img-shadow {
             width: 75%;
             float: left;
             margin-top: -1rem;
             margin-left: 7rem;
         }
-
         .img-shadow img {
             top: 36px;
             left: 54px;
@@ -476,32 +484,28 @@
         .top-right {
             right: -36px;
         }
-        
-        .nav-linkproject1{
+        .nav-linkproject1 {
             width: 9.6rem !important;
             font-size: 1rem !important;
         }
-
         .img-shadowr {
             margin-top: -1rem;
             margin-left: -5rem;
         }
-
         .top-left {
             left: 70px;
         }
-
         .sidehrr {
             margin-right: 3rem;
         }
         .sidehrtextr {
             left: 17rem;
             margin-right: 15rem;
-        }   
+        }
     }
-
-    @media (max-width:768px) and (max-height:878px) {
-        .sidehr, .sidehrtext {
+    @media (max-width:768px) and (max-height:1024px) {
+        .sidehr,
+        .sidehrtext {
             margin-left: -5rem;
             left: 6rem;
             position: relative;
@@ -509,14 +513,12 @@
             width: 24%;
             font-size: 14px;
         }
-
         .img-shadow {
             width: 75%;
             float: left;
             margin-top: 5rem;
             margin-left: 5rem;
         }
-
         .img-shadow img {
             top: 36px;
             left: 54px;
@@ -524,35 +526,30 @@
         .top-right {
             right: -36px;
         }
-        
-        .nav-linkproject1{
+        .nav-linkproject1 {
             width: 9.6rem !important;
             font-size: 1rem !important;
         }
-
         .img-shadowr {
             margin-top: 2rem;
             margin-left: -5rem;
         }
-
         .top-left {
             left: 70px;
         }
-
         .sidehrr {
             margin-right: 3rem;
         }
         .sidehrtextr {
             left: 11rem;
             margin-right: 15rem;
-        }   
+        }
     }
-
-
+    @media (max-width:414px) {}
 }
 
 #sectionf {
-    @media (max-width:768px) {
+    @media (max-width: 768px) {
         .formfooter {
             top: 2rem !important;
         }

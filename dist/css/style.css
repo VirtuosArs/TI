@@ -2253,6 +2253,10 @@ a.bloglink:link {
   margin-top: -20rem;
 }
 
+#home .img-shadowweb {
+  background: #3d4deb !important;
+}
+
 #home .img-shadow img {
   position: relative;
   top: 36px;
@@ -2277,6 +2281,10 @@ a.bloglink:link {
   color: #e76366 !important;
 }
 
+#home .sidehrtextweb {
+  color: #3d4deb !important;
+}
+
 #home .getlink {
   color: #e76366;
   border-bottom: 2px solid;
@@ -2284,6 +2292,10 @@ a.bloglink:link {
   border-width: 50%;
   text-decoration: none;
   width: 50%;
+}
+
+#home .getweblink {
+  color: #3d4deb !important;
 }
 
 #home .head1 {
@@ -2331,7 +2343,7 @@ a.bloglink:link {
   }
 }
 
-@media (max-width: 768px) and (max-height: 878px) {
+@media (max-width: 768px) and (max-height: 1024px) {
   #home .img-shadow {
     width: 100% !important;
     margin-top: -12rem !important;
@@ -2353,9 +2365,15 @@ a.bloglink:link {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-height: 1024px) {
   #service2 {
-    margin-top: 3rem;
+    margin-top: 3rem !important;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+  #service2 {
+    margin-top: 3rem !important;
   }
 }
 
@@ -2380,7 +2398,8 @@ a.bloglink:link {
 }
 
 @media (min-width: 1850px) {
-  #service4 .head1, #service4 h2 {
+  #service4 .head1,
+  #service4 h2 {
     font-size: 3.5rem;
   }
 }
@@ -2532,6 +2551,10 @@ a.bloglink:link {
   background: #000 !important;
 }
 
+#service4 .morewebbutton {
+  background: -webkit-linear-gradient(left, #5d33e5, #58a1ff) !important;
+}
+
 #service4 .mtoppad {
   margin-top: 5rem;
 }
@@ -2548,6 +2571,17 @@ a.bloglink:link {
   background: linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
 }
 
+#service4 .morewebproject {
+  background: #5d33e5;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Fx 3.6 to 15 */
+  /* Standard syntax */
+  background: -webkit-gradient(linear, left bottom, right top, from(#5d33e5), color-stop(#5d38e7), color-stop(#5a70f4), to(#5897fd));
+  background: linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+}
+
 #service4 .morehead {
   color: #fff;
 }
@@ -2559,7 +2593,8 @@ a.bloglink:link {
 }
 
 @media (max-width: 1024px) and (max-height: 878px) {
-  #service4 .sidehr, #service4 .sidehrtext {
+  #service4 .sidehr,
+  #service4 .sidehrtext {
     margin-left: -5rem;
     left: 6rem;
     position: relative;
@@ -2600,8 +2635,9 @@ a.bloglink:link {
   }
 }
 
-@media (max-width: 768px) and (max-height: 878px) {
-  #service4 .sidehr, #service4 .sidehrtext {
+@media (max-width: 768px) and (max-height: 1024px) {
+  #service4 .sidehr,
+  #service4 .sidehrtext {
     margin-left: -5rem;
     left: 6rem;
     position: relative;
