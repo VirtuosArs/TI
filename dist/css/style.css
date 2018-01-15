@@ -2683,3 +2683,12 @@ a.bloglink:link {
     top: 2rem !important;
   }
 }
+
+#project .projecthead {
+  font-family: Khand-Semibold;
+  text-transform: uppercase;
+}
+
+#project .projectdesc {
+  font-size: 1.5rem;
+}
