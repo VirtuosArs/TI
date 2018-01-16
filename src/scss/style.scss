@@ -225,6 +225,11 @@
             margin-left: 0;
         }
     }
+    @media (max-width:1024px) and (max-height:1366px) {
+        .img-shadow {
+            margin-top: -15rem;
+        }
+    }
     @media (max-width:768px) {
         .dot {
             margin-left: -2rem;
@@ -246,6 +251,11 @@
             margin-top: -12rem !important;
         }
     }
+    @media (max-width:414px) {
+        .img-shadow img {
+            left: 26px !important;
+        }
+    }
 }
 
 #service2 {
@@ -264,6 +274,12 @@
 @media (max-width:768px) and (max-height:1024px) {
     #service2 {
         margin-top: 3rem !important;
+    }
+}
+
+@media (max-width:1024px) and (max-height:1366px) {
+    #service2 {
+        margin-top: 6rem !important;
     }
 }
 
@@ -289,12 +305,6 @@
     .head1 {
         font-family: Khand-Semibold;
         text-transform: uppercase;
-    }
-    @media (min-width: 1850px) {
-        .head1,
-        h2 {
-            font-size: 3.5rem;
-        }
     }
     .containerimg {
         position: relative;
@@ -421,10 +431,9 @@
     .morebutton:before {
         background: #000 !important;
     }
-    .morewebbutton{
+    .morewebbutton {
         background: -webkit-linear-gradient(left, #5d33e5, #58a1ff) !important;
     }
-
     .mtoppad {
         margin-top: 5rem;
     }
@@ -459,6 +468,53 @@
     @media (min-width: 1850px) {
         .morehead {
             font-size: 3.5rem;
+        }
+    }
+    @media (max-width:1024px) and (max-height:1366px) {
+        .sidehr,
+        .sidehrtext {
+            margin-left: -5rem;
+            left: 6rem;
+            position: relative;
+            top: 21rem;
+            width: 24%;
+            font-size: 14px;
+        }
+        .img-shadow {
+            width: 75%;
+            float: left;
+            margin-top: -1rem;
+            margin-left: 7rem;
+        }
+        .img-shadow img {
+            top: 36px;
+            left: 54px;
+        }
+        .top-right {
+            right: -36px;
+        }
+        .nav-linkproject1 {
+            width: 9.6rem !important;
+            font-size: 1rem !important;
+        }
+        .img-shadowr {
+            margin-top: -1rem;
+            margin-left: -5rem;
+        }
+        .top-left {
+            left: 70px;
+        }
+        .sidehrr {
+            margin-right: 3rem;
+        }
+        .sidehrtextr {
+            left: 17rem;
+            margin-right: 15rem;
+        }
+    }
+    @media (max-width:1366px) and (max-height:1024px) {
+        .sidehrtextr {
+            margin-right: 26rem;
         }
     }
     @media (max-width:1024px) and (max-height:878px) {
@@ -545,7 +601,76 @@
             margin-right: 15rem;
         }
     }
-    @media (max-width:414px) {}
+    @media (max-width:414px) {
+        .img-shadow {
+            width: 75%;
+            float: left;
+            margin-top: 5rem;
+            margin-left: 1rem;
+        }
+        .img-shadow img {
+            left: 26px !important;
+        }
+        .img-shadowr {
+            float: left;
+            background: #3d4deb;
+        }
+        .img-shadowr img {
+            left: -54px;
+        }
+        .img-shadow3 {
+            background: #417307;
+        }
+        /* Top right text */
+        .top-right {
+            position: absolute;
+            top: 45px;
+            right: -18px;
+            font-size: 1.4rem;
+            color: #000;
+        }
+        .top-left {
+            position: absolute;
+            top: 45px;
+            left: 36px;
+            font-size: 1.4rem;
+            color: #000;
+        }
+        .sidehr {
+            margin-left: -5rem;
+            background: #000;
+            position: relative;
+            top: 21rem;
+            left: -1rem;
+        }
+        .sidehrtext {
+            margin-left: -5rem;
+            color: $design-text !important;
+            position: relative;
+            top: 21rem;
+            left: -1rem;
+        }
+        .sidehrr {
+            margin-right: -1rem;
+            background: #000;
+            position: relative;
+            top: 21rem;
+            width: 20%;
+        }
+        .sidehrtextr {
+            color: #3d4deb !important;
+            position: relative;
+            top: 21rem;
+            left: 26rem;
+            margin-right: 15rem;
+        }
+        .sidehrtext3 {
+            color: #417307 !important;
+        }
+        .sidehead {
+            padding-top: 6rem;
+        }
+    }
 }
 
 #sectionf {
@@ -556,13 +681,11 @@
     }
 }
 
-
 #project {
     .projecthead {
         font-family: Khand-Semibold;
         text-transform: uppercase;
     }
-
     .projectdesc {
         font-size: 1.5rem;
     }
