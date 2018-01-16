@@ -562,4 +562,13 @@ $(function ($) {
       return src.replace('images/Mediumm.svg', 'images/Medium.svg')
     })
   })
+  $('.liicon').hover(function () {
+    $(this).find('img').attr('src', function (i, src) {
+      return src.replace('images/LinkedIn.svg', 'images/LinkedInM.svg')
+    })
+  }, function () {
+    $(this).find('img').attr('src', function (i, src) {
+      return src.replace('images/LinkedInM.svg', 'images/LinkedIn.svg')
+    })
+  })
 })

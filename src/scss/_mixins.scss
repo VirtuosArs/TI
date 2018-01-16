@@ -22,3 +22,30 @@
     font-family: 'Khand-Medium', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   }
   
+
+  @mixin web-color() {
+    background: #5d33e5;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+    /* Standard syntax */
+    background: linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+  }
+
+  @mixin design-color() {
+    background: #fe5068;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+    /* For Opera 11.1 to 12.0 */
+    /* background: -o-linear-gradient(to bottom right, #fe5068, #ff6955, #ff704f, #ffbf13); */
+    background: -o-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+    /* Standard syntax */
+    background: linear-gradient(to top right, #fe5068, #ff6955, #ff883d);
+  }

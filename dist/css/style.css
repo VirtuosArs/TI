@@ -2363,7 +2363,7 @@ a.bloglink:link {
 }
 
 #service2 {
-  background: #e9ecef;
+  background: #F7F7F7;
 }
 
 #service2 .head1 {
@@ -2384,6 +2384,12 @@ a.bloglink:link {
 }
 
 @media (max-width: 1024px) and (max-height: 1366px) {
+  #service2 {
+    margin-top: 6rem !important;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 1024px) {
   #service2 {
     margin-top: 6rem !important;
   }
@@ -2809,6 +2815,9 @@ a.bloglink:link {
   #service4 .sidehead {
     padding-top: 6rem;
   }
+  #service4 .mp {
+    padding: 0rem !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2824,4 +2833,34 @@ a.bloglink:link {
 
 #project .projectdesc {
   font-size: 1.5rem;
+}
+
+.back {
+  text-decoration: none;
+  color: #fff;
+}
+
+.back:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#webproject .morewebproject {
+  background: #5d33e5;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Fx 3.6 to 15 */
+  /* Standard syntax */
+  background: -webkit-gradient(linear, left bottom, right top, from(#5d33e5), color-stop(#5d38e7), color-stop(#5a70f4), to(#5897fd));
+  background: linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+}
+
+#webproject .allprojects {
+  color: #fff;
+  text-decoration: none;
+}
+
+#webproject .morehead {
+  color: #fff;
 }

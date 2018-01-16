@@ -31,6 +31,10 @@ $(document).ready(function () {
         window.location.href = "#sectionf";
     });
 
+    // $('#view').click(function () {
+    //     window.location.href = "#webp1";
+    // });
+
     function isEmail(email) {
         var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         console.log(regex.test(email));
@@ -236,69 +240,78 @@ $(document).ready(function () {
 
 function formatDate(dateVal) {
     var newDate = new Date(dateVal);
-  
+
     var sMonth = padValue(newDate.getMonth() + 1);
     var sDay = padValue(newDate.getDate());
     var sYear = newDate.getFullYear();
     var sHour = newDate.getHours();
     var sMinute = padValue(newDate.getMinutes());
     var sAMPM = "AM";
-  
+
     var iHourCheck = parseInt(sHour);
-  
+
     if (iHourCheck > 12) {
-      sAMPM = "PM";
-      sHour = iHourCheck - 12;
+        sAMPM = "PM";
+        sHour = iHourCheck - 12;
     }
     else if (iHourCheck === 0) {
-      sHour = "12";
+        sHour = "12";
     }
-  
+
     sHour = padValue(sHour);
     console.log(sDay + "-" + sMonth + "-" + sYear + " " + sHour + ":" + sMinute + " " + sAMPM);
-  
+
     return sDay + "-" + sMonth + "-" + sYear + " " + sHour + ":" + sMinute + " " + sAMPM;
-  }
-  
-  function padValue(value) {
+}
+
+function padValue(value) {
     return (value < 10) ? "0" + value : value;
-  }
-  
-  $(function ($) {
+}
+
+$(function ($) {
     $('.fbicon').hover(function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Fb.svg', 'images/Fbm.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Fb.svg', 'images/Fbm.svg')
+        })
     }, function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Fbm.svg', 'images/Fb.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Fbm.svg', 'images/Fb.svg')
+        })
     })
     $('.twittericon').hover(function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Twitter.svg', 'images/Twitterm.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Twitter.svg', 'images/Twitterm.svg')
+        })
     }, function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Twitterm.svg', 'images/Twitter.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Twitterm.svg', 'images/Twitter.svg')
+        })
     })
     $('.instaicon').hover(function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Insta.svg', 'images/Instam.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Insta.svg', 'images/Instam.svg')
+        })
     }, function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Instam.svg', 'images/Insta.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Instam.svg', 'images/Insta.svg')
+        })
     })
     $('.mediumicon').hover(function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Medium.svg', 'images/Mediumm.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Medium.svg', 'images/Mediumm.svg')
+        })
     }, function () {
-      $(this).find('img').attr('src', function (i, src) {
-        return src.replace('images/Mediumm.svg', 'images/Medium.svg')
-      })
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/Mediumm.svg', 'images/Medium.svg')
+        })
     })
-  })
+    $('.liicon').hover(function () {
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/LinkedIn.svg', 'images/LinkedInM.svg')
+        })
+    }, function () {
+        $(this).find('img').attr('src', function (i, src) {
+            return src.replace('images/LinkedInM.svg', 'images/LinkedIn.svg')
+        })
+    })
+})
