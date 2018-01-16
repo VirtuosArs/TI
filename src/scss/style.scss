@@ -161,7 +161,7 @@
         margin-top: -20rem;
     }
     .img-shadowweb {
-        background: $web-text;
+        background: $gray-900;
     }
     .img-shadow img {
         position: relative;
@@ -187,7 +187,7 @@
         color: $design-text !important;
     }
     .sidehrtextweb {
-        color: $web-text;
+        color: $web-maintext !important;
     }
     .getlink {
         color: $design-text;
@@ -198,7 +198,7 @@
         width: 50%;
     }
     .getweblink {
-        color: $web-text;
+        color: $web-maintext;
     }
     .head1 {
         font-family: Khand-Semibold;
@@ -346,13 +346,13 @@
     }
     .img-shadowr {
         float: left;
-        background: #3d4deb;
+        background: $web-text;
     }
     .img-shadowr img {
         left: -54px;
     }
     .img-shadow3 {
-        background: #417307;
+        background: $green-text;
     }
     /* Top right text */
     .top-right {
@@ -391,14 +391,14 @@
         width: 20%;
     }
     .sidehrtextr {
-        color: #3d4deb !important;
+        color: $web-text;
         position: relative;
         top: 21rem;
         left: 26rem;
         margin-right: 15rem;
     }
     .sidehrtext3 {
-        color: #417307 !important;
+        color: $green-text !important;
     }
     .sidehead {
         padding-top: 4rem;
@@ -448,10 +448,10 @@
         content: '';
     }
     .np2:before {
-        background: #3d4deb;
+        background: $web-text;
     }
     .np3:before {
-        background: #417307;
+        background: $green-text;
     }
     .morebutton {
         background: -webkit-linear-gradient(left, #fe5068, #ffbf13) !important;
@@ -623,7 +623,7 @@
         }
         .img-shadowr {
             float: left;
-            background: #3d4deb;
+            background: $web-text;
         }
         .img-shadowr img {
             left: -54px;
@@ -668,7 +668,7 @@
             width: 20%;
         }
         .sidehrtextr {
-            color: #3d4deb !important;
+            color: $web-text !important;
             position: relative;
             top: 21rem;
             left: 26rem;
