@@ -310,3 +310,8 @@ $(function ($) {
         })
     })
 })
+
+$('#read').click(function () {
+    console.log("Clicked read more...");
+    $(".ihide").css('display', 'block');
+});

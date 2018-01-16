@@ -220,6 +220,9 @@
         .head1 {
             font-size: 3.5rem;
         }
+        .headn1 {
+            font-size: 2rem;
+        }
         .servicescreen1 {
             max-width: 100%;
             margin-left: 0;
@@ -255,10 +258,17 @@
         .img-shadow img {
             left: 26px !important;
         }
+        .top-right {
+            right: -6px;
+        }
+    }
+    .imghome {
+        max-width: 90%
     }
 }
 
 #service2 {
+    margin-top: 3rem !important;
     background: $gray-200;
     .head1 {
         font-family: Khand-Semibold;
@@ -391,7 +401,20 @@
         color: #417307 !important;
     }
     .sidehead {
-        padding-top: 6rem;
+        padding-top: 4rem;
+    }
+    .sidehead1 {
+        color: $design-text;
+        // font-weight: 600;
+
+    }
+    .sidehead2 {
+        color: $web-text;
+        // font-weight: 600;
+    }
+    .sidehead3 {
+        color: $green-text;
+        // font-weight: 600;
     }
     a {
         text-decoration: none;
@@ -655,7 +678,7 @@
             color: #417307 !important;
         }
         .sidehead {
-            padding-top: 6rem;
+            padding-top: 4rem;
         }
         .mp {
             padding: 0rem !important;
@@ -700,5 +723,20 @@
     }
     .morehead {
         color: $white;
+    }
+}
+
+.ihide,
+#readless {
+    // color: $web-text;
+    display: none;
+    cursor: pointer;
+}
+
+#read,
+#readless {
+    cursor: pointer;
+    &:hover {
+        color: $web-text;
     }
 }

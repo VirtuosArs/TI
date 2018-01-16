@@ -2320,6 +2320,9 @@ a.bloglink:link {
   #home .head1 {
     font-size: 3.5rem;
   }
+  #home .headn1 {
+    font-size: 2rem;
+  }
   #home .servicescreen1 {
     max-width: 100%;
     margin-left: 0;
@@ -2360,9 +2363,17 @@ a.bloglink:link {
   #home .img-shadow img {
     left: 26px !important;
   }
+  #home .top-right {
+    right: -6px;
+  }
+}
+
+#home .imghome {
+  max-width: 90%;
 }
 
 #service2 {
+  margin-top: 3rem !important;
   background: #F7F7F7;
 }
 
@@ -2514,7 +2525,19 @@ a.bloglink:link {
 }
 
 #service4 .sidehead {
-  padding-top: 6rem;
+  padding-top: 4rem;
+}
+
+#service4 .sidehead1 {
+  color: #e76366;
+}
+
+#service4 .sidehead2 {
+  color: #3d4deb !important;
+}
+
+#service4 .sidehead3 {
+  color: #417307;
 }
 
 #service4 a {
@@ -2813,7 +2836,7 @@ a.bloglink:link {
     color: #417307 !important;
   }
   #service4 .sidehead {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
   #service4 .mp {
     padding: 0rem !important;
@@ -2863,4 +2886,20 @@ a.bloglink:link {
 
 #webproject .morehead {
   color: #fff;
+}
+
+.ihide,
+#readless {
+  display: none;
+  cursor: pointer;
+}
+
+#read,
+#readless {
+  cursor: pointer;
+}
+
+#read:hover,
+#readless:hover {
+  color: #3d4deb !important;
 }

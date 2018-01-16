@@ -315,3 +315,17 @@ $(function ($) {
         })
     })
 })
+
+$('#read').click(function () {
+    console.log("Clicked read more...");
+    $(".ihide").css('display', 'block');
+    $("#read").css('display', 'none');
+    $("#readless").css('display', 'block');
+});
+
+$('#readless').click(function () {
+    console.log("Clicked read less...");
+    $(".ihide").css('display', 'none');
+    $("#read").css('display', 'block');
+    $("#readless").css('display', 'none');
+});
