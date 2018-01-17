@@ -2320,10 +2320,14 @@ a.bloglink:link {
   /* Top right text */
 }
 
+#home .smalltext {
+  font-size: 0.7rem !important;
+}
+
 #home .servicescreen1 {
   background: #fff;
-  -webkit-box-shadow: 10px 10px 45px #999;
-  box-shadow: 10px 10px 45px #999;
+  -webkit-box-shadow: 5px 5px 50px #cbcbcd;
+  box-shadow: 5px 5px 50px #cbcbcd;
   margin-top: -5rem;
   border-radius: 0;
   max-width: 90%;
@@ -2347,8 +2351,13 @@ a.bloglink:link {
   top: 36px;
   left: 54px;
   border-top: 46px solid #fff;
-  -webkit-box-shadow: 10px 10px 45px #999;
-  box-shadow: 10px 10px 45px #999;
+  -webkit-box-shadow: 12px 12px 50px #cbcbcd;
+  box-shadow: 12px 12px 50px #cbcbcd;
+}
+
+#home .img-shadowr img {
+  -webkit-box-shadow: -10px 5px 50px #cbcbcd !important;
+  box-shadow: -10px 5px 50px #cbcbcd !important;
 }
 
 #home .dot {
@@ -2381,6 +2390,10 @@ a.bloglink:link {
 
 #home .getweblink {
   color: #5B5FEB;
+}
+
+#home .getweblink:hover {
+  color: #5D33E5;
 }
 
 #home .head1 {
@@ -2422,7 +2435,7 @@ a.bloglink:link {
 
 @media (max-width: 1440px) and (max-height: 900px) {
   #home .head1 {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
   }
   #home p {
     font-size: 0.9rem !important;
@@ -2444,10 +2457,23 @@ a.bloglink:link {
 
 @media (max-width: 1280px) and (max-height: 800px) {
   #home .head1 {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
   }
   #home p {
     font-size: 0.9rem !important;
+  }
+}
+
+@media (min-width: 1850px) {
+  #home .head1 {
+    font-size: 3.5rem;
+  }
+  #home .headn1 {
+    font-size: 2rem;
+  }
+  #home .servicescreen1 {
+    max-width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -2513,6 +2539,10 @@ a.bloglink:link {
   }
 }
 
+#service2 p {
+  font-size: 0.8rem;
+}
+
 @media (max-width: 768px) and (max-height: 1024px) {
   #service2 {
     margin-top: 3rem !important;
@@ -2542,6 +2572,10 @@ a.bloglink:link {
   text-transform: uppercase;
 }
 
+#service3 p {
+  font-size: 0.8rem;
+}
+
 @media (min-width: 1850px) {
   #service3 .head1 {
     font-size: 3.5rem;
@@ -2552,10 +2586,31 @@ a.bloglink:link {
   #service3 p {
     font-size: 0.8rem;
   }
+  #service3 .padleft {
+    margin-left: -2rem;
+  }
+  #service3 .padtop {
+    margin-top: -0.3rem;
+  }
+  #service3 .colsub {
+    margin-top: -2rem;
+    margin-left: -1rem;
+  }
+  #service3 .sec3p {
+    font-size: 0.75rem;
+  }
+  #service3 .sec3content {
+    padding-left: 12px;
+    padding-right: 0px;
+  }
 }
 
 #service4 {
   /* Top right text */
+}
+
+#service4 p {
+  font-size: 0.9rem;
 }
 
 #service4 .head1 {
@@ -2586,8 +2641,13 @@ a.bloglink:link {
   top: 36px;
   left: 54px;
   border-top: 46px solid #fff;
-  -webkit-box-shadow: 10px 10px 45px #999;
-  box-shadow: 10px 10px 45px #999;
+  -webkit-box-shadow: 12px 12px 50px #cbcbcd;
+  box-shadow: 12px 12px 50px #cbcbcd;
+}
+
+#service4 .img-shadowr img {
+  -webkit-box-shadow: -12px 12px 50px #cbcbcd !important;
+  box-shadow: -12px 12px 50px #cbcbcd !important;
 }
 
 #service4 .img-shadowr {
@@ -2761,6 +2821,9 @@ a.bloglink:link {
   #service4 .morehead {
     font-size: 3.5rem;
   }
+  #service4 .p1 {
+    margin-top: -3rem !important;
+  }
 }
 
 @media (max-width: 1024px) and (max-height: 1366px) {
@@ -2822,6 +2885,23 @@ a.bloglink:link {
   #service4 p {
     font-size: 0.9rem;
   }
+  #service4 .top-left {
+    top: 57px;
+    left: -39px;
+  }
+  #service4 .p3 {
+    padding-top: 3.4rem !important;
+  }
+  #service4 .p4 {
+    padding-top: 6.4rem !important;
+    text-align: right;
+  }
+  #service4 .para4 {
+    text-align: right;
+  }
+  #service4 .np2 {
+    margin-left: 6.3rem;
+  }
 }
 
 @media (max-width: 1440px) and (max-height: 900px) {
@@ -2836,6 +2916,68 @@ a.bloglink:link {
   }
   #service4 p {
     font-size: 0.9rem;
+  }
+  #service4 .mtoppad {
+    margin-top: 0rem;
+  }
+  #service4 .s4left {
+    margin-left: 8rem;
+  }
+  #service4 .colsub1 {
+    margin-left: -2rem;
+  }
+  #service4 .colsub2 {
+    margin-left: 1rem;
+  }
+  #service4 .b1 {
+    margin-top: -0.4rem;
+    margin-left: 0.3rem;
+  }
+  #service4 .a1 {
+    position: relative;
+    top: -0.2rem;
+  }
+  #service4 .i1 {
+    top: 48px !important;
+  }
+  #service4 .top-right {
+    top: 57px;
+    right: -39px;
+  }
+  #service4 .top-left {
+    top: 57px;
+    left: -39px;
+  }
+  #service4 .p3 {
+    padding-top: 3.4rem !important;
+  }
+  #service4 .p4 {
+    padding-top: 5.4rem !important;
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 800px) {
+  #service4 .sidehrtextr {
+    left: 21rem;
+  }
+  #service4 .sidehead {
+    padding-top: 1rem !important;
+  }
+  #service4 p {
+    font-size: 0.9rem;
+  }
+  #service4 .top-left {
+    top: 57px;
+    left: -39px;
+  }
+  #service4 .p3 {
+    padding-top: 3.4rem !important;
+  }
+  #service4 .p2 {
+    padding-top: 3.4rem !important;
+  }
+  #service4 .p4 {
+    padding-top: 7rem !important;
   }
 }
 
@@ -3005,8 +3147,22 @@ a.bloglink:link {
 }
 
 @media (max-width: 768px) {
-  #sectionf .formfooter {
+  #sectionfw .formfooter {
     top: 2rem !important;
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 800px) {
+  #sectionfw .formfooter {
+    margin-left: 0rem !important;
+    margin-top: -3rem;
+  }
+}
+
+@media (max-width: 1440px) and (max-height: 900px) {
+  #sectionfw .formfooter {
+    margin-left: 0rem !important;
+    margin-top: -3rem;
   }
 }
 
@@ -3049,6 +3205,48 @@ a.bloglink:link {
   color: #fff;
 }
 
+#more {
+  min-height: auto !important;
+  margin-top: 5rem;
+}
+
+#more .newmore {
+  height: 180px;
+}
+
+#more .morewebproject {
+  background: #5d33e5;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Fx 3.6 to 15 */
+  /* Standard syntax */
+  background: -webkit-gradient(linear, left bottom, right top, from(#5d33e5), color-stop(#5d38e7), color-stop(#5a70f4), to(#5897fd));
+  background: linear-gradient(to top right, #5d33e5, #5d38e7, #5a70f4, #5897fd);
+}
+
+#more .allprojects {
+  color: #fff;
+  text-decoration: none;
+}
+
+#more .morehead {
+  color: #fff;
+}
+
+#more .morewebbutton {
+  background: -webkit-linear-gradient(left, #5d33e5, #58a1ff) !important;
+}
+
+#more a {
+  color: #fff;
+}
+
+#more .a1 {
+  position: relative;
+  top: -0.2rem;
+}
+
 .ihide,
 #readless {
   display: none;
@@ -3062,5 +3260,5 @@ a.bloglink:link {
 
 #read:hover,
 #readless:hover {
-  color: #E52E3B;
+  color: #5B5FEB;
 }
