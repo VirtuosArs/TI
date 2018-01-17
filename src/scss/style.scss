@@ -20,82 +20,82 @@
 //     background: $gray-600;
 // }
 // // Styling for the navbar
-// #mainNav {
-//     border-bottom: 1px solid fade-out($gray-900, .9);
-//     background-color: $white;
-//     @include sans-serif-font;
-//     @include transition-all;
-//     .navbar-brand {
-//       font-weight: 700;
-//       text-transform: uppercase;
-//       color: $primary;
-//       @include sans-serif-font;
-//       &:focus,
-//       &:hover {
-//         color: darken($primary, .1);
-//       }
-//     }
-//     .navbar-nav {
-//       > li.nav-item {
-//          > a.nav-link,
-//         > a.nav-link:focus {
-//           font-size: .9rem;
-//           font-weight: 700;
-//           text-transform: uppercase;
-//           color: $gray-900;
-//           &:hover {
-//             color: $primary;
-//           }
-//           &.active {
-//             color: $gray-100 !important;
-//             background-color: transparent;
-//             &:hover {
-//               background-color: transparent;
-//             }
-//           }
-//         }
-//       }
-//     }
-//     @media (min-width: 992px) {
-//       border-color: transparent;
-//       background-color: transparent;
-//       .navbar-brand {
-//         color: fade-out($white, .3);
-//         &:focus,
-//         &:hover {
-//           color: $white;
-//         }
-//       }
-//       .navbar-nav > li.nav-item > a.nav-link {
-//         padding: 0.5rem 1rem;
-//       }
-//       .navbar-nav > li.nav-item > a.nav-link,
-//       .navbar-nav > li.nav-item > a.nav-link:focus {
-//         color: fade-out($white, .3);
-//         &:hover {
-//           color: $white;
-//         }
-//       }
-//       &.navbar-shrink {
-//         border-bottom: 1px solid fade-out($gray-900, .9);
-//         background-color: transparent;
-//         .navbar-brand {
-//           color: $white;
-//           &:focus,
-//           &:hover {
-//             color: darken($white, .1);
-//           }
-//         }
-//         .navbar-nav > li.nav-item > a.nav-link,
-//         .navbar-nav > li.nav-item > a.nav-link:focus {
-//           color: $white;
-//           &:hover {
-//             color: $white;
-//           }
-//         }
-//       }
-//     }
-//   }
+#mainNav {
+    border-bottom: 1px solid fade-out($gray-900, .9);
+    background-color: $white;
+    @include sans-serif-font;
+    @include transition-all;
+    .navbar-brand {
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $primary;
+      @include sans-serif-font;
+      &:focus,
+      &:hover {
+        color: darken($primary, .1);
+      }
+    }
+    .navbar-nav {
+      > li.nav-item {
+         > a.nav-link,
+        > a.nav-link:focus {
+          font-size: .9rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: $gray-900;
+          &:hover {
+            color: $primary;
+          }
+          &.active {
+            color: $gray-100 !important;
+            background-color: transparent;
+            &:hover {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+    @media (min-width: 992px) {
+      border-color: transparent;
+      background-color: transparent;
+      .navbar-brand {
+        color: fade-out($white, .3);
+        &:focus,
+        &:hover {
+          color: $white;
+        }
+      }
+      .navbar-nav > li.nav-item > a.nav-link {
+        padding: 0.5rem 1rem;
+      }
+      .navbar-nav > li.nav-item > a.nav-link,
+      .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: fade-out($white, .3);
+        &:hover {
+          color: $white;
+        }
+      }
+      &.navbar-shrink {
+        border-bottom: 1px solid fade-out($gray-900, .9);
+        background-color: transparent;
+        .navbar-brand {
+          color: $white;
+          &:focus,
+          &:hover {
+            color: darken($white, .1);
+          }
+        }
+        .navbar-nav > li.nav-item > a.nav-link,
+        .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: $white;
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
 //   // Styling for the masthead
 // header.masthead {
 //     padding-top: 10rem;
@@ -234,6 +234,28 @@
         }
     }
 
+    @media (max-width:1440px) and (max-height:900px) {
+        .head1 {
+            font-size: 1.5rem !important;
+        }
+        p {
+            font-size: 0.9rem !important;
+        }
+        .img-shadow img {
+            position: relative;
+            top: 42px;
+            left: 36px;
+            border-top: 48px solid #fff;
+        }
+        .img-shadow {
+            margin-top: -20rem;
+        }
+        .top-right {
+            top: 54px;
+            right: -3px;
+        }        
+    }
+
     @media (max-width:1280px) and (max-height:800px) {
         .head1 {
             font-size: 1.5rem !important;
@@ -243,14 +265,7 @@
         }
     }
 
-    @media (max-width:1440px) and (max-height:900px) {
-        .head1 {
-            font-size: 1.5rem !important;
-        }
-        p {
-            font-size: 0.9rem !important;
-        }
-    }
+    
 
     @media (max-width:768px) {
         .dot {
@@ -260,6 +275,9 @@
             width: 80%;
             float: left;
             margin-top: -17rem;
+        }
+        p {
+            font-size: 0.9rem;
         }
     }
     @media (max-width:1024px) and (max-height:878px) {
@@ -556,6 +574,34 @@
             margin-right: 26rem;
         }
     }
+
+    @media (max-width:1280px) and (max-height:800px) {
+        .sidehrtextr {
+            left: 21rem;
+        }
+        .sidehead {
+            padding-top: 1rem !important;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width:1440px) and (max-height:900px) {
+        .sidehrtextr {
+            left: 21rem;
+        }
+        .sidehead {
+            padding-top: 1rem !important;
+        }
+        .img-shadow {
+            margin-top: -3rem;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
     @media (max-width:1024px) and (max-height:878px) {
         .sidehr,
         .sidehrtext {
@@ -594,7 +640,7 @@
             margin-right: 3rem;
         }
         .sidehrtextr {
-            left: 17rem;
+            left: 14rem;
             margin-right: 15rem;
         }
     }
@@ -636,8 +682,11 @@
             margin-right: 3rem;
         }
         .sidehrtextr {
-            left: 11rem;
+            left: 9rem;
             margin-right: 15rem;
+        }
+        p {
+            font-size: 0.9rem;
         }
     }
     @media (max-width:414px) {
@@ -713,27 +762,6 @@
             padding: 0rem !important;
         }
     }
-
-    @media (max-width:1440px) and (max-height:900px) {
-        .sidehrtextr {
-            left: 21rem;
-        }
-        .sidehead {
-            padding-top: 1rem !important;
-        }
-        .img-shadow {
-            margin-top: -3rem;
-        }
-    }
-
-    @media (max-width:1280px) and (max-height:800px) {
-        .sidehrtextr {
-            left: 21rem;
-        }
-        .sidehead {
-            padding-top: 1rem !important;
-        }
-    }
 }
 
 #sectionf {
@@ -790,3 +818,10 @@
         color: $web-text;
     }
 }
+
+// #mainNav {
+//     .navbar {
+//         height: auto;
+//         z-index: 1030;
+//     }
+// }
