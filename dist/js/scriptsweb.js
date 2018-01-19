@@ -12,11 +12,12 @@ $(document).ready(function () {
 
     // $('#contactus').css('background', '-webkit-linear-gradient(left, #fe5068, #ffbf13)');
     $('#contactus').css('background', '-webkit-linear-gradient(left, #5d33e5, #58a1ff)');
+    $('#view1').css('background', '-webkit-linear-gradient(left, #5d33e5, #58a1ff)');
 
     $('#fullpage').fullpage({
         verticalCentered: true,
         sectionSelector: '.section',
-        anchors: ['home1', 'why', 'how', 'projects', 'contact', 'footer'],
+        anchors: ['home1', 'why', 'how', 'projects', 'contactf', 'footer'],
         navigation: true,
         autoScrolling: false,
         recordHistory: false,
@@ -28,7 +29,7 @@ $(document).ready(function () {
 
     $('#contactus').click(function () {
         console.log("Clicked contact us...");
-        window.location.href = "#sectionf";
+        window.location.href = "#contact";
     });
 
     // $('#view').click(function () {
