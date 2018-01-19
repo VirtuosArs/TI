@@ -3490,3 +3490,41 @@ a.bloglink:link {
 #readless:hover {
   color: #5B5FEB;
 }
+
+#contact .a1,
+.morewebproject .a1 {
+  position: relative;
+  top: -0.2rem;
+}
+
+@media (max-width: 1024px) and (max-height: 1366px) {
+  #contact .a1,
+  .morewebproject .a1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  #contact .a1,
+  .morewebproject .a1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+  #contact .a1,
+  .morewebproject .a1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 414px) {
+  #contact,
+  .morewebproject {
+    margin-bottom: 3rem;
+  }
+  #contact .a1,
+  .morewebproject .a1 {
+    font-size: 1rem;
+  }
+}

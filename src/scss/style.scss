@@ -1222,3 +1222,33 @@
 //         z-index: 1030;
 //     }
 // }
+
+
+#contact,
+.morewebproject {
+    .a1 {
+        position: relative;
+        top: -0.2rem;
+    }
+    @media (max-width:1024px) and (max-height:1366px) {
+        .a1 {
+            font-size: 1.2rem;
+        }
+    }
+    @media (max-width:768px) and (max-height:1024px) {
+        .a1 {
+            font-size: 1.2rem;
+        }
+    }
+    @media (max-width:1024px) and (max-height:768px) {
+        .a1 {
+            font-size: 1.2rem;
+        }
+    }
+    @media(max-width:414px) {
+        .a1 {
+            font-size: 1rem;
+        }
+        margin-bottom: 3rem;
+    }
+}

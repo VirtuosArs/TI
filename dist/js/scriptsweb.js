@@ -10,6 +10,10 @@ $(document).ready(function () {
     console.log("Min-height...");
     console.log("In service script...");
 
+    if ($(window).width() < 482) {
+        $('#howwedoit').attr('src','../images/web/w2.png');
+      }
+
     // $('#contactus').css('background', '-webkit-linear-gradient(left, #fe5068, #ffbf13)');
     $('#contactus').css('background', '-webkit-linear-gradient(left, #5d33e5, #58a1ff)');
     $('#view1').css('background', '-webkit-linear-gradient(left, #5d33e5, #58a1ff)');
